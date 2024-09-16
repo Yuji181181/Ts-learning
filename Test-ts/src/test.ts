@@ -19,3 +19,20 @@ const test6:[string,number] = ["aaa",123]
 const test7 = (x1:string, y1:number):void => {   //返り値がない場合はvoidをつける
     console.log()
 }
+
+/**
+ * 型の変換
+ */
+const test8:string = "123"
+Number(test8)
+
+/**
+ * オブジェクトに型をつける
+ */
+const test9:{
+    name:string,
+    age:number
+}={
+    name:"ゆうじ",
+    age:21
+}
