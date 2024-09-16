@@ -51,3 +51,6 @@ const test10:AAA = {
 //typeはオリジナルの型を作れる
 type color = "白"|"黒"
 
+/**
+ * ジェネリクス
+ */
