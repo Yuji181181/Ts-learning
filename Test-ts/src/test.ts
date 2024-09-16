@@ -37,3 +37,17 @@ const test9:{
     age:21
 }
 
+/**
+ * interface
+ */
+interface AAA{
+    name:string
+    age:number
+}
+const test10:AAA = {
+    name:"ゆうじ",
+    age:21
+}
+//typeはオリジナルの型を作れる
+type color = "白"|"黒"
+
