@@ -36,3 +36,4 @@ const test9:{
     name:"ゆうじ",
     age:21
 }
+
